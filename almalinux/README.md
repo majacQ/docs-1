@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `almalinux` official image](https://hub.docker.com/_/almalinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,7 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`latest`, `8`, `8.4`](https://github.com/AlmaLinux/docker-images/blob/3317c1f96704c1cbbab9257ac51a791fb7e28987/Dockerfile)
+-	[`latest`, `8`, `8.4`](https://github.com/AlmaLinux/docker-images/blob/22f71ba269cb4ecb6dd771912f27cf5d8cc9da9a/Dockerfile)
+
+[![arm64v8/almalinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/almalinux.svg?label=arm64v8/almalinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/almalinux/)
 
 # Quick reference (cont.)
 
@@ -53,7 +57,7 @@ WARNING:
 
 # About this image
 
-The `almalinux:latest` tag will always point to the latest stable release. Major releases are also tagged with their version (e.g. `almalinux:8`). All images for supported releases will be updated monthly or as needed for security fixes.
+The `arm64v8/almalinux:latest` tag will always point to the latest stable release. Major releases are also tagged with their version (e.g. `arm64v8/almalinux:8`). All images for supported releases will be updated monthly or as needed for security fixes.
 
 ## How It's Made
 
